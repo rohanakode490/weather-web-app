@@ -4,7 +4,6 @@ import Search from "./components/search/Search";
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./api";
 import { useState, useEffect } from "react";
 import Forecast from "./components/forecast/forecast";
-import axios from "axios";
 
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
