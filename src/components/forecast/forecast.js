@@ -24,7 +24,7 @@ const Forecast = ({ data }) => {
     WEEK_DAYS.slice(0, dayInAWeek)
   );
 
-  const capitalize = s => s && s[0].toUpperCase() + s.slice(1)
+  const capitalize = (s) => s && s[0].toUpperCase() + s.slice(1);
 
   return (
     <div className="every">
